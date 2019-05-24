@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+using Microsoft.VisualBasic;
+
 namespace Timer
 {
     public partial class Form1 : Form
@@ -16,10 +18,7 @@ namespace Timer
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void BtnCount_Click(object sender, EventArgs e)
         {
