@@ -42,10 +42,12 @@
             this.txtNum.Size = new System.Drawing.Size(213, 21);
             this.txtNum.TabIndex = 0;
             this.txtNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNum.TextChanged += new System.EventHandler(this.TxtNum_TextChanged);
             // 
             // Timer
             // 
             this.Timer.Interval = 1000;
+            this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // btnCount
             // 
